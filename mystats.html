@@ -14,7 +14,7 @@
         It is a flavoured rice recipe with vegetables which is rich is in proteins and carbs.
     </p>
     <img src="https://github.com/44-563-WebApps-F23/44563-webapps-f23-assignment3-Jaswitha-20/blob/main/image/FoodImage.png?raw=true"
-        height=200, widthl=200 alt="A food item picture"><br>
+        height=400, widthl=400 alt="A food item picture"><br>
     <a href="https://github.com/44-563-WebApps-F23/44563-webapps-f23-assignment3-Jaswitha-20/blob/main/image/FoodImage.png">A
         link to Food Image</a>
     <hr>
@@ -46,6 +46,18 @@
             <td>6-7 hrs</td>
         </tr>
     </table>
+    <hr>
+    <h3>Code Display section </h3>
+    <q>Mobile device detection with htaccess</q>
+    <a href="https://stackoverflow.com/questions/16301409/mobile-device-detection-with-htaccess">A link to stackoverflow</a>
+    <pre>
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{HTTP_USER_AGENT} .*iPhone.*
+        RewriteRule ^index\.html$ http://www.mobile.mydomain.com [L]
+        RewriteRule  ^/$ http://www.mydomain.com/index.html [L]
+        </IfModule>
+    </pre>
 </body>
 
 </html>
